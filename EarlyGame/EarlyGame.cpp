@@ -3,9 +3,15 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
-    cout << "yaudah iya" << endl;
+   //begin
+    // numeric nJejari, nLuas
+    // display 'Masukan jejari= '
+    // accept nJejari
+    // compiute nLuas = 3,14 * r * r
+    // display 'Luasnya= ' + nLuas
+   //end
 
+    double nJejari, nLuas;
     system("pause");
 }
 
