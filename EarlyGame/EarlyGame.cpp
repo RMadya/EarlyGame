@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+
    //begin
     // numeric nJejari, nLuas
     // display 'Masukan jejari= '
@@ -13,6 +14,10 @@ int main()
 
     double nJejari, nLuas;
     cout << "Masukan jejari = ";
+    cin >> nJejari;
+    nLuas = 3.14 * nJejari * nJejari;
+    cout << "Luasnya = " << nLuas << endl;
+
     system("pause");
 }
 
